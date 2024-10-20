@@ -65,7 +65,7 @@ To start the frontend React application, navigate to the weather-app directory a
 ```
 npm run dev
 ```
-The frontend will be running on http://localhost:3000.
+The frontend will be running on http://localhost:5173
 
 
 Frontend Overview
