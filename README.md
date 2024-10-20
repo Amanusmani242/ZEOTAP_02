@@ -1,26 +1,29 @@
-
-Here’s a structured README.md file for your weather monitoring application with email notifications. This file is tailored for a GitHub project and provides an overview of the app, setup instructions, and key features.
-
 Weather Monitoring Dashboard with Email Alerts
 This is a weather monitoring web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app pulls real-time weather data from the OpenWeatherMap API for Indian metro cities, displaying current weather conditions, a five-day forecast, and air quality. It also includes a temperature threshold system that sends email notifications when the temperature exceeds the set threshold.
 
 Features
+
 Real-time Weather Data: Fetches current weather, air quality, and 5-day forecasts for major cities.
 Threshold-based Alerts: Users can set a temperature threshold. If the current temperature exceeds the threshold, they receive an email alert.
 Email Notifications: Email notifications are sent using the Nodemailer package when the threshold is breached.
 City Search: Users can search for weather information by city.
 Custom Thresholds: Users can customize their temperature threshold for alerts.
+
 Tech Stack
+
 Frontend: React.js
 Backend: Node.js, Express.js, Mongoose
 Database: MongoDB
 Email Notifications: Nodemailer (via Gmail)
 API Integration: OpenWeatherMap API
+
 Prerequisites
+
 Node.js (v12 or higher)
 MongoDB (local or cloud instance)
 OpenWeatherMap API key: You need an API key from OpenWeatherMap.
 Gmail Account: For sending email notifications using Nodemailer.
+
 
 Installation
 1. Clone the repository
