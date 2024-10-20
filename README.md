@@ -1,4 +1,4 @@
-##Weather Monitoring Dashboard with Email Alerts
+## Weather Monitoring Dashboard with Email Alerts
 
 This is a weather monitoring web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app pulls real-time weather data from the OpenWeatherMap API for Indian metro cities, displaying current weather conditions, a five-day forecast, and air quality. It also includes a temperature threshold system that sends email notifications when the temperature exceeds the set threshold.
 
